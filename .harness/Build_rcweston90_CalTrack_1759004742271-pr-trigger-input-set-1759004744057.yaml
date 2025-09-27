@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_rcweston90_CalTrack_1759004742271-pr-trigger-input-set
+  identifier: Build_rcweston90_CalTrack_1759004742271prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_rcweston90_CalTrack_1759004742271
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
